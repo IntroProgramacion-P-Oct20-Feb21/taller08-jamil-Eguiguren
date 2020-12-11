@@ -21,8 +21,11 @@ public class problema3 {
         double suma = 0;
         double numerador;
         double denominador;
+        //Se pide que ingrese valores por teclado
         System.out.println("Ingrese un numero para la operacion: ");
         numero = entrada.nextDouble();
+        //Se realiza la operacion 
+        //Se genera un if para 
         if(numero >= 0){
             for (int i = 1; i <= numero; i++) {
             numerador = 1;

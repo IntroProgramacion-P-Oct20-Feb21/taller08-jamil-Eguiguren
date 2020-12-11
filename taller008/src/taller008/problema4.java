@@ -21,8 +21,11 @@ public class problema4 {
         double suma = 0;
         double numerador;
         double denominador;
+        //Se pide que ingrese valores por teclado
         System.out.println("Ingrese un numero para la operacion: ");
         numero = entrada.nextDouble();
+        //Se realiza la operacion 
+        //Se genera un if para que e presente si existe un error
         if(numero >= 0){
             for (int i = 0; i <= numero; i++) {
             numerador = Math.pow(-1, i);
@@ -32,6 +35,8 @@ public class problema4 {
         }else{ 
             System.out.println("El numero ingresado no es positivo");
         }
+        
+        //Se presenta el valor obtenido
         System.out.printf("Valor de la sumatoria %.2f\n", suma);
     }
     

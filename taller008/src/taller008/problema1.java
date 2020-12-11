@@ -27,11 +27,14 @@ public class problema1 {
         System.out.println("Ïngrese una palabra: ");
         palabra = entrada.nextLine();
         char letra;
+        //Se realiza una condicion for para poder escribir solo las primeras
+        // letras de la palabra
         for (int i = 0; i < palabra.length(); i++){
             letra = palabra.charAt(i);   
             for (int contador = 0;contador < (i+1); contador++){
               System.out.printf("%s",letra);     
              }
+            //se genera un print para poder hacer un salto de linea
             System.out.println(); 
             }
         } 
